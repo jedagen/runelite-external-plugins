@@ -1,0 +1,9 @@
+@echo off
+echo Starting RuneLite with PlayerRisk Plugin...
+echo.
+echo Building project first...
+call gradlew shadowJar
+echo.
+echo Starting RuneLite...
+java -ea -cp "build/libs/example-1.0-SNAPSHOT-all.jar" com.playerrisk.ExamplePluginTest
+pause

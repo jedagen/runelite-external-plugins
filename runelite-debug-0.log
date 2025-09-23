@@ -1,0 +1,10 @@
+[2025-08-25 13:18:02] [FINE   ] java.lang.Shutdown logRuntimeExit: Runtime.exit() called with status: 1
+java.lang.Throwable: Runtime.exit(1)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Runtime.exit(Runtime.java:188)
+	at java.base/java.lang.System.exit(System.java:1920)
+	at java.base/sun.launcher.LauncherHelper.abort(LauncherHelper.java:676)
+	at java.base/sun.launcher.LauncherHelper.loadMainClass(LauncherHelper.java:827)
+	at java.base/sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:706)
+
